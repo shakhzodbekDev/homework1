@@ -1,0 +1,106 @@
+.main__about {
+  margin-top: 80px;
+  position: relative;
+}
+.main__about-information {
+  margin-left: 109px;
+}
+.main__about-left {
+  padding: 64px;
+  max-width: 624px;
+  background-color: #fff;
+}
+.main__about-left p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 3px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+}
+.main__about-right {
+  max-width: 477px;
+}
+.main__about-statistics img {
+  top: 300px;
+  z-index: -1;
+  position: absolute;
+}
+.main__about-statistic {
+  gap: 68px;
+  left: 109px;
+  top: 565px;
+  max-width: 630px;
+  position: absolute;
+  padding: 32px 48px;
+  background-color: #FFD050;
+}
+.main__about .pattern-1 {
+  left: 109px;
+  top: 721px;
+  position: absolute;
+}
+.main__about-bottom {
+  z-index: -1;
+  margin-top: 390px;
+  background-color: #F4F0F8;
+  padding: 128px 108px 64px 108px;
+}
+.main__about-bottom__item {
+  max-width: 516px;
+}
+.main__about-bottom__item p:first-child {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+}
+.main__about-bottom__item .heading-3 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.main__our-team {
+  margin-top: 128px;
+  position: relative;
+}
+.main__our-team-information {
+  max-width: 519px;
+}
+.main__our-team-information .heading-4 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.main__our-team-element {
+  top: 114px;
+  right: 578px;
+  width: 103px;
+  height: 116px;
+  position: absolute;
+  border-radius: 50px 0 0 0;
+  background-color: #FFD050;
+}
+
+.main__we-started {
+  margin-top: 128px;
+  position: relative;
+}
+.main__we-started-information {
+  max-width: 519px;
+}
+.main__we-started-information .heading-4 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.main__we-started-element {
+  top: 443px;
+  left: 107px;
+  width: 74px;
+  height: 74px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #592EA9;
+}/*# sourceMappingURL=about.css.map */

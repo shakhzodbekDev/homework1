@@ -1,0 +1,23 @@
+.header__hero {
+  padding: 80px 0;
+  text-align: center;
+  background-color: #F4F0F8;
+}
+
+.privacy-policy {
+  padding: 128px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.privacy-policy div {
+  margin-left: 336px;
+}
+.privacy-policy .heading-1 {
+  max-width: 714.76px;
+}
+.privacy-policy .paragraph-1 {
+  margin-top: 32px;
+  max-width: 768px;
+  margin-bottom: 32px;
+}/*# sourceMappingURL=privacy-policy.css.map */

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finsweet</title>
+    <link rel="stylesheet" href="styles/css/global.css">
+    <link rel="stylesheet" href="styles/css/main.css">
+    <link rel="stylesheet" href="styles/css/home.css">
+</head>
+
+<body>
+
+    <!-- Header section -->
+    <header class="header">
+        <nav class="navbar container flex items-center">
+            <a href="/"><img src="images/logo.svg" alt="logo"></a>
+
+            <ul class="navbar__menu flex">
+                <li><a href="index.html" class="navbar__link inter">Home</a></li>
+                <li><a href="blog.html" class="navbar__link inter">Blog</a></li>
+                <li><a href="about.html" class="navbar__link inter">About Us</a></li>
+                <li><a href="contact.html" class="navbar__link inter">Contact us</a></li>
+            </ul>
+
+            <a href="#subscription" class="navbar__subscribe">Subscribe</a>
+        </nav>
+        <div class="header__hero">
+            <div class="header__hero-bg"></div>
+
+            <div class="container">
+                <div class="header__hero-information">
+                    <p class="header__hero-information__posted inter">Posted on <span>startup</span></p>
+                    <h1 class="header__hero-information__title display">Step-by-step guide to choosing great font pairs
+                    </h1>
+                    <p class="header__hero-information__author paragraph-1 inter">By <span>James West</span> | May 23,
+                        2022</p>
+                    <p class="header__hero-information__text paragraph-1 inter">Duis aute irure dolor in reprehenderit
+                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                        cupidatat non proident.</p>
+
+                    <a href="#" class="button">Read More ></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main section -->
+    <main class="main container">
+        <!-- All posts section -->
+        <section class="main__all-posts">
+            <div class="main__all-posts-top flex items-center">
+                <h2 class="heading-2">Featured Post</h2>
+                <h2 class="heading-2">All Posts</h2>
+                <a href="blog.html" class="paragraph-1">View All</a>
+            </div>
+            <div class="flex between">
+                <div class="main__all-posts-featured-post">
+                    <img src="images/post-image.jpg" alt="post-image">
+                    <p class="main__all-posts-author label">By <span>John Doe</span> | May 23, 2022</p>
+                    <h2 class="heading-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor.</h2>
+                    <p class="paragraph-1">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                        eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                    <a href="blog.html" class="button">Read More ></a>
+                </div>
+                <div class="main__all-posts-posts">
+                    <div class="main__all-posts-post">
+                        <p class="main__all-posts-author label">By <span>John Deo</span> | Aug 23, 2021 </p>
+                        <a href="blog.html" class="heading-4">8 Figma design systems that you can download for free
+                            today.</a>
+                    </div>
+                    <div class="main__all-posts-post">
+                        <p class="main__all-posts-author label">By <span>John Deo</span> | Aug 23, 2021 </p>
+                        <a href="blog.html" class="heading-4">8 Figma design systems that you can download for free
+                            today.</a>
+                    </div>
+                    <div class="main__all-posts-post">
+                        <p class="main__all-posts-author label">By <span>John Deo</span> | Aug 23, 2021 </p>
+                        <a href="blog.html" class="heading-4">8 Figma design systems that you can download for free
+                            today.</a>
+                    </div>
+                    <div class="main__all-posts-post">
+                        <p class="main__all-posts-author label">By <span>John Deo</span> | Aug 23, 2021 </p>
+                        <a href="blog.html" class="heading-4">8 Figma design systems that you can download for free
+                            today.</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About us section -->
+        <div class="pattern">
+            <div></div>
+            <div></div>
+        </div>
+        <section class="main__about">
+            <div class="main__about-items flex between">
+                <div class="main__about-item flex">
+                    <p>ABOUT US</p>
+                    <h2 class="heading-2">We are a community of content writers who share their learnings</h2>
+                    <p class="paragraph-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="about.html">Read More ></a>
+                </div>
+                <div class="main__about-item flex">
+                    <p>OUR MISION</p>
+                    <h2 class="heading-2">Creating valuable content for creatives all around the world</h2>
+                    <p class="paragraph-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Category section -->
+        <section class="category">
+            <h2 class="heading-2">Choose A Catagory</h2>
+
+            <div class="category__items flex between">
+                <div class="category__item">
+                    <img src="images/business.svg" alt="business">
+                    <h3 class="heading-3">Business</h3>
+                    <p class="paragraph-1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                </div>
+                <div class="category__item">
+                    <img src="images/startup.svg" alt="startup">
+                    <h3 class="heading-3">Startup</h3>
+                    <p class="paragraph-1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                </div>
+                <div class="category__item">
+                    <img src="images/economy.svg" alt="economy">
+                    <h3 class="heading-3">Economy</h3>
+                    <p class="paragraph-1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                </div>
+                <div class="category__item">
+                    <img src="images/technology.svg" alt="technology">
+                    <h3 class="heading-3">Technology</h3>
+                    <p class="paragraph-1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Story section -->
+        <section class="main__story">
+            <img src="images/bg-image1.jpg" alt="bg-image">
+
+            <div class="main__story-information">
+                <p>Why we started</p>
+                <h1 class="heading-1">It started out as a simple idea and evolved into our passion</h1>
+                <p class="paragraph-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip.</p>
+                <a href="#" class="button">Discover our story ></a>
+            </div>
+        </section>
+
+        <!-- Authors section -->
+        <section class="authors">
+            <h2 class="heading-2">List of Authors</h2>
+            <div class="authors__items flex between">
+                <div class="authors__item">
+                    <img src="images/author.png" alt="author">
+                    <h3 class="heading-3">Floyd Miles</h3>
+                    <p class="paragraph-2">Content Writer @Company</p>
+                    <div class="authors__item-socials flex">
+                        <a href="#"><img src="images/facebook.svg" alt="facebook"></a>
+                        <a href="#"><img src="images/twitter.svg" alt="twitter"></a>
+                        <a href="#"><img src="images/instagram.svg" alt="instagram"></a>
+                        <a href="#"><img src="images/linkedin.svg" alt="linkedin"></a>
+                    </div>
+                </div>
+                <div class="authors__item">
+                    <img src="images/author1.png" alt="author">
+                    <h3 class="heading-3">Dianne Russell</h3>
+                    <p class="paragraph-2">Content Writer @Company</p>
+                    <div class="authors__item-socials flex">
+                        <a href="#"><img src="images/facebook.svg" alt="facebook"></a>
+                        <a href="#"><img src="images/twitter.svg" alt="twitter"></a>
+                        <a href="#"><img src="images/instagram.svg" alt="instagram"></a>
+                        <a href="#"><img src="images/linkedin.svg" alt="linkedin"></a>
+                    </div>
+                </div>
+                <div class="authors__item">
+                    <img src="images/author2.png" alt="author">
+                    <h3 class="heading-3">Jenny Wilson</h3>
+                    <p class="paragraph-2">Content Writer @Company</p>
+                    <div class="authors__item-socials flex">
+                        <a href="#"><img src="images/facebook.svg" alt="facebook"></a>
+                        <a href="#"><img src="images/twitter.svg" alt="twitter"></a>
+                        <a href="#"><img src="images/instagram.svg" alt="instagram"></a>
+                        <a href="#"><img src="images/linkedin.svg" alt="linkedin"></a>
+                    </div>
+                </div>
+                <div class="authors__item">
+                    <img src="images/author3.png" alt="author">
+                    <h3 class="heading-3">Leslie Alexander</h3>
+                    <p class="paragraph-2">Content Writer @Company</p>
+                    <div class="authors__item-socials flex">
+                        <a href="#"><img src="images/facebook.svg" alt="facebook"></a>
+                        <a href="#"><img src="images/twitter.svg" alt="twitter"></a>
+                        <a href="#"><img src="images/instagram.svg" alt="instagram"></a>
+                        <a href="#"><img src="images/linkedin.svg" alt="linkedin"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partnes section -->
+        <section class="main__partners flex between items-center">
+            <a href="#"><img src="images/partner.svg" alt="partner"></a>
+            <a href="#"><img src="images/partner1.svg" alt="partner"></a>
+            <a href="#"><img src="images/partner2.svg" alt="partner"></a>
+            <a href="#"><img src="images/partner3.svg" alt="partner"></a>
+            <a href="#"><img src="images/partner4.svg" alt="partner"></a>
+            <a href="#"><img src="images/partner5.svg" alt="partner"></a>
+        </section>
+
+        <!-- Testimonials section -->
+        <section class="main__testimonials flex between">
+            <div class="main__testimonials-left">
+                <p>TESTIMONIALS</p>
+                <h2 class="heading-2">What people say about our blog</h2>
+                <p class="paragraph-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                </p>
+            </div>
+            <div class="divider"></div>
+            <div class="main__testimonials-right">
+                <h4 class="heading-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.</h4>
+                <div class="main__testimonials-profile flex items-center">
+                    <img src="images/testimonials-profile.png" alt="profile-img">
+                    <div>
+                        <h4 class="main__testimonials-profile__name">Jonathan Vallem</h4>
+                        <p class="paragraph-1">New york, USA</p>
+                    </div>
+                    <div class="main__testimonials-arrows flex">
+                        <div class="left-arrow flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                                <path class="test" fill="currentColor"
+                                    d="m10 18l-6-6l6-6l1.4 1.45L7.85 11H20v2H7.85l3.55 3.55z" />
+                            </svg>
+                        </div>
+                        <div class="right-arrow flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                                <path class="test" fill="currentColor"
+                                    d="m14 18l-1.4-1.45L16.15 13H4v-2h12.15L12.6 7.45L14 6l6 6z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Join team section -->
+        <section class="join-team">
+            <h2 class="heading-2">Join our team to be a part of our story</h2>
+            <p class="paragraph-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt.</p>
+            <a href="#" class="button">Join Now</a>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="container">
+            <nav class="navbar flex items-center">
+                <a href="/"><img src="images/logo.svg" alt="logo"></a>
+
+                <ul class="navbar__menu flex">
+                    <li><a href="index.html" class="navbar__link inter">Home</a></li>
+                    <li><a href="blog.html" class="navbar__link inter">Blog</a></li>
+                    <li><a href="about.html" class="navbar__link inter">About Us</a></li>
+                    <li><a href="contact.html" class="navbar__link inter">Contact us</a></li>
+                    <li><a href="privacy-policy.html" class="navbar__link inter">Privacy Policy</a></li>
+                </ul>
+            </nav>
+
+            <div class="footer__subscription flex items-center" id="subscription">
+                <h2 class="footer__subscription-title heading-2">Subscribe to our news letter to get latest updates and
+                    news</h2>
+
+                <input type="text" placeholder="Enter Your Email">
+                <a href="#" class="button">Subscribe</a>
+            </div>
+
+            <div class="footer__contact flex between items-center">
+                <address class="address inter">Finstreet 118 2561 Fintown<br>Hello@finsweet.com 020 7993 2905</address>
+
+                <div class="socials flex">
+                    <a href="#"><img src="images/facebook.svg" alt="facebook"></a>
+                    <a href="#"><img src="images/twitter.svg" alt="twitter"></a>
+                    <a href="#"><img src="images/instagram.svg" alt="instagram"></a>
+                    <a href="#"><img src="images/linkedin.svg" alt="linkedin"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

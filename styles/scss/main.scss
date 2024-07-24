@@ -1,0 +1,160 @@
+// import global.scss
+@import url("./global.css");
+
+// Header section styless
+.header {
+    color: #fff;
+    background-color: #232536;
+}
+
+// Navbar section styless
+.navbar {
+    color: #fff;
+    padding: 12px 0;
+
+    &__menu {
+        gap: 24px;
+        margin-left: auto;
+        margin-right: 32px;
+    }
+
+    &__link {
+        color: #fff;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    &__subscribe {
+        font-size: 18px;
+        color: #232536;
+        font-weight: 700;
+        line-height: 24px;
+        padding: 16px 48px;
+        background-color: #fff;
+    }
+}
+
+// Category section styless
+.category {
+    margin-top: 128px;
+
+    .heading-2 {
+        text-align: center;
+        margin-bottom: 48px;
+    }
+
+    &__item {
+        padding: 32px;
+        max-width: 296px;
+        border: 1px solid #d3d4d6;
+        transition: background-color .5s;
+
+        img {
+            padding: 12px 13px;
+            border-radius: 18px;
+            margin-bottom: 16px;
+            background-color: #fbf6ea;
+        }
+
+        &:hover {
+            background-color: #FFD050;
+        }
+    }
+}
+
+// Authors section styless
+.authors {
+    margin-top: 128px;
+    text-align: center;
+    
+    .heading-2 {
+        margin-bottom: 48px;
+    }
+    
+    &__items {
+        gap: 32px;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        width: 296px;
+        padding: 40px 35px;
+        background-color: #F4F4F4;
+        transition: background-color .5s;
+
+        img {
+            margin-bottom: 20px;
+        }
+
+        &-socials {
+            gap: 16px;
+            margin-top: 20px;
+            justify-content: center;
+        }
+
+        &:hover {
+            background-color: #FBF6EA;
+        }
+    }
+}
+
+.join-team {
+    max-width: 414px;
+    margin-top: 128px;
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+    margin-bottom: 128px;
+
+    .paragraph-1 {
+        margin-top: 16px;
+        margin-bottom: 32px;
+    }
+}
+
+// Footer section styless
+.footer {
+    padding: 57px 0;
+    background-color: #232536;
+
+    &__subscription {
+        margin-top: 54px;
+        padding: 80px 64px;
+        margin-bottom: 48px;
+        background-color: #2e3040;
+
+        &-title {
+            color: #fff;
+        }
+
+        input {
+            color: #fff;
+            outline: none;
+            margin-left: 64px;
+            margin-right: 24px;
+            padding: 20px 162px 20px 24px;
+            border: 1px solid #4C4C4C;
+            background-color: transparent;
+        }
+
+        input::placeholder {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            font-family: "Inter", sans-serif;
+        }
+    }
+
+    .address {
+        opacity: 70%;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        font-style: normal;
+    }
+
+    .socials {
+        gap: 26px;
+    }
+}

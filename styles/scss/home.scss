@@ -1,0 +1,203 @@
+.header__hero {
+    padding: 0 0 865px 0;
+    background-size: 1920px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../../images/bg-image.jpg');
+
+    &-information {
+        max-width: 870px;
+        margin-top: 123px;
+        position: absolute;
+
+        &__posted {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 20px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+
+            span {
+                font-size: 16px;
+                font-weight: 900;
+                line-height: 20px;
+                letter-spacing: 3px;
+            }
+        }
+
+        &__title {
+            color: #fff;
+            margin-top: 24px;
+            margin-bottom: 24px;
+        }
+
+        &__author {
+            color: #fff;
+            margin-top: 24px;
+            margin-bottom: 16px;
+
+            span {
+                color: #ffd050;
+            }
+        }
+
+        &__text {
+            color: #fff;
+            margin-bottom: 48px;
+        }
+    }
+}
+
+.main {
+    padding: 128px 0 0 0;
+
+    &__all-posts {
+        margin-bottom: 128px;
+
+        &-top {
+            margin-bottom: 32px;
+
+            .heading-2:nth-child(2) {
+                margin-left: 542px;
+                margin-right: 322px;
+            }
+        }
+
+        &-featured-post {
+            padding: 32px;
+            max-width: 733px;
+            margin-right: 32px;
+            border: 1px solid #f1f1f2;
+
+            .paragraph-1 {
+                color: #6D6E76;
+                margin-top: 16px;
+                margin-bottom: 32px;
+            }
+        }
+
+        &-author {
+            color: #4C4C4C;
+            margin-top: 32px;
+            margin-bottom: 16px;
+
+            span {
+                color: #592ea9;
+            }
+        }
+
+        &-post {
+            padding: 32px 115px 25px 32px;
+            transition: background-color .5s;
+
+            .main__all-posts-author {
+                margin-top: 0;
+                margin-bottom: 8px;
+            }
+
+            .heading-4 {
+                color: #232536;
+            }
+
+            &:hover {
+                background-color: #FBF6EA;
+            }
+        }
+    }
+
+    &__about {
+        gap: 61px;
+        background-color: #F4F0F8;
+        padding: 98px 108px 96px 80px;
+
+        &-item {
+            gap: 16px;
+            max-width: 515px;
+            flex-direction: column;
+            
+            p:first-child {
+                margin-bottom: 24px;
+            }
+        }
+    }
+
+    &__story {
+        margin-top: 128px;
+        position: relative;
+
+        &-information {
+            right: 0;
+            bottom: 0;
+            padding: 80px;
+            max-width: 770px;
+            position: absolute;
+            background-color: #fff;
+
+            P:first-child {
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 20px;
+                margin-bottom: 24px;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                font-family: "Inter", sans-serif;
+            }
+
+            .paragraph-1 {
+                margin-top: 16px;
+                margin-bottom: 32px;
+            }
+        }
+    }
+
+    &__partners {
+        margin-top: 96px;
+    }
+
+    &__testimonials {
+        margin-top: 96px;
+        padding: 80px 111px;
+        background-color: #FBF6EA;
+
+        &-left .heading-2 {
+            margin-top: 12px;
+            margin-bottom: 16px;
+        }
+
+        .divider {
+            width: 1px;
+            opacity: 40%;
+            height: 304px;
+            margin-left: 80px;
+            margin-right: 96px;
+            background-color: #6D6E76;
+        }
+
+        &-profile {
+            gap: 16px;
+            margin-top: 160px;
+        }
+
+        &-arrows {
+            gap: 24px;
+            margin-left: auto;
+
+            .left-arrow, .right-arrow {
+                cursor: pointer;
+                padding: 10px;
+                border-radius: 50%;
+                transition: all .5s;
+                background-color: #fff;
+            }
+
+            .left-arrow:hover, .right-arrow:hover {
+                transform: scale(1.2);
+                background-color: #232536;
+            }
+
+            .left-arrow:hover svg path, .right-arrow:hover svg path {
+                fill: #ffffff;
+            }
+        }
+    }
+}
